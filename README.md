@@ -6,23 +6,6 @@
         </b>
 	</p>
 
-<p>
-    <a href="https://join.slack.com/t/sharpai/shared_invite/zt-1g4l7c928-w6ANwRzdAjstIw3wYmwG1g">
-        <img src="https://img.shields.io/badge/slack-purple?style=for-the-badge&logo=slack" height=25>
-    </a>
-    <a href="https://github.com/SharpAI/DeepCamera/issues">
-        <img src="https://img.shields.io/badge/support%20forums-navy?style=for-the-badge&logo=github" height=25>
-    </a>
-    <a href="https://github.com/SharpAI/DeepCamera/releases">
-        <img alt="GitHub release" src="https://img.shields.io/github/release/SharpAI/DeepCamera.svg?style=for-the-badge" height=25>
-    </a>
-    <a href="https://pypi.python.org/pypi/sharpai-hub">
-        <img alt="Pypi release" src="https://img.shields.io/pypi/v/sharpai-hub.svg?style=for-the-badge" height=25>
-    </a>
-    <a href="https://pypi.python.org/pypi/sharpai-hub">
-        <img alt="Monthly download" src="https://img.shields.io/pypi/dm/sharpai-hub.svg?style=for-the-badge" height=25>
-    </a>
-</p>
 
 <br>
 </div>
@@ -53,7 +36,7 @@ SharpAI-hub is the cloud hosting for AI applications which help you deploy AI ap
 # Self-supervised person recognition(REID) intruder detection
 <img src="screenshots/reid_self_supervised.gif" width="960" height="540" />
 
-SharpAI yolov7_reid is an open source python application leverages AI technologies to detect intruder with traditional surveillance camera. Source code is [here](https://github.com/SharpAI/DeepCamera/blob/master/src/yolov7_reid/src/detector_cpu.py)
+SharpAI is an open source python application leverages AI technologies to detect intruder with traditional surveillance camera.
 
 It leverages Yolov7 as person detector, FastReID for person feature extraction, Milvus the local vector database for self-supervised learning to identity unseen person, Labelstudio to host image locally and for further usage such as label data and train your own classifier. It also integrates with Home-Assistant to empower smart home with AI technology. 
 
@@ -153,11 +136,3 @@ pip3 install -U pip
 sudo pip3 install docker-compose==1.27.4
 ```
 ## [How to use web gui](screenshots/how_to_config_on_web_gui.png)
-## [How to config RTSP on GUI](https://github.com/SharpAI/DeepCamera/blob/master/docs/shinobi.md)   
-## [Camera streaming URL format](https://shinobi.video)
-## How to create token for Telegram Bot(DOC W.I.P)
-- Create Telegram Bot through @BotFather
-- Set Telegram Token in [Configure File](https://github.com/SharpAI/DeepCamera/blob/nano/docker/production_1.env#L15)
-- Send message to the new bot you created
-
-## [Contributions](Contributions.md)
