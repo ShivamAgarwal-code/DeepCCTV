@@ -10,7 +10,7 @@
 <br>
 </div>
 
-DeepCamera empowers your traditional surveillance cameras and CCTV/NVR with machine learning technologies. 
+DeepCamera empowers your traditional surveillance cameras and CCTV/NVR with machine learning technologies in which used Microsoft Azure as for database. 
 It provides open source facial recognition based intrusion detection, fall detection and parking lot monitoring with the inference engine on your local device.
 
 SharpAI-hub is the cloud hosting for AI applications which help you deploy AI applications with your CCTV camera on your edge device in minutes. 
@@ -102,11 +102,6 @@ sharpai-cli <application name> start
 - DaHua / Lorex / AMCREST: URL Path: `/cam/realmonitor?channel=1&subtype=0` Port: `554`
 - Ip Camera Lite on IOS: URL Path: `/live` Port: `8554`   
 - Nest Camera indoor/outdoor by Home-Assistant integration
-
-# Support
-- If you are using a camera but have no idea about the RTSP URL, please join SharpAI community for help.
-- SharpAI provides commercial support to companies which want to deploy AI Camera application to real world.
-## [Click to join sharpai slack channel](https://sharpai-invite-automation.herokuapp.com/)
 
 # DeepCamera Architecture
 ![architecture](screenshots/DeepCamera_infrastructure.png)
