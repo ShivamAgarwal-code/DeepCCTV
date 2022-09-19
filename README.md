@@ -98,6 +98,11 @@ sharpai-cli <application name> start
 - Windows 11
 - Ubuntu 20.04
 
+##Microsoft Azure Services
+- Active Directory
+- Azure Devops Server
+- PostgreSQL
+
 ## Tested Camera:
 - DaHua / Lorex / AMCREST: URL Path: `/cam/realmonitor?channel=1&subtype=0` Port: `554`
 - Ip Camera Lite on IOS: URL Path: `/live` Port: `8554`   
